@@ -41,9 +41,8 @@ body {
 	margin: auto;
 }
 
-#header-top {
-	background: #F1C232;
-}
+/* Background set by customizer */
+#header-top {}
 
 .topbar-social img {
 	max-width: 24px;

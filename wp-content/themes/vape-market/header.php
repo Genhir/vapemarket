@@ -23,6 +23,15 @@
 
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 
+<!-- Customizer Styles -->
+<style>
+
+#header-top {
+	background: <?php print get_theme_mod('header_bg_color'); ?>;
+}
+
+</style>
+
 </head>
 
 <body <?php body_class(); ?>>

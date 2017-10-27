@@ -106,11 +106,9 @@ function vm_customizer_settings( $wp_customize ) {
 
 	$wp_customize->add_section( 'vm_colors', array(
   'title' => __( 'Colors' ),
-  'description' => __( 'Add custom CSS here' ),
-  'panel' => '', // Not typically needed.
+  'description' => __( 'Customize theme colors here.' ),
   'priority' => 160,
   'capability' => 'edit_theme_options',
-  'theme_supports' => '', // Rarely needed.
 ) );
 
 	$wp_customize->add_setting( 'background_color' , array(
@@ -119,9 +117,21 @@ function vm_customizer_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'background_color', array(
-	'label'        => 'Background Color',
+	'label'      => 'Background Color',
 	'section'    => 'vm_colors',
 	'settings'   => 'background_color',
 ) ) );
+
+	// header background
+	$wp_customize->add_setting( 'header_bg_color' , array(
+		'default'     => '#000000',
+		'transport'   => 'refresh',
+	));
+
+	$wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'header_bg_color', array(
+		'label'      => 'Header Background Color',
+		'section'    => 'vm_colors',
+		'settings'   => 'header_bg_color',
+	)));
 
 }
