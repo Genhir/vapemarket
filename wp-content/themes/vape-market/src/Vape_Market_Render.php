@@ -9,6 +9,12 @@ class Vape_Market_Render {
 
 	}
 
+	public static function renderSettingText( $field_id ) {
+		$prefix = 'vm_';
+		$value = rwmb_meta( $prefix . $field_id, array( 'object_type' => 'setting' ), 'vm_settings' );
+		print $value;
+	}
+
 	public static function renderText( $option ) {
 		print get_theme_mod( $option );
 	}
