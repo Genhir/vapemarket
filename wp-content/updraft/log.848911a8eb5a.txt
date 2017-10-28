@@ -1,0 +1,250 @@
+0000.001 (0) Opened log file at time: Fri, 27 Oct 2017 17:53:32 +0000 on http://localhost/vapemarket.ca
+0000.005 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.12 WP: 4.8.2 PHP: 5.6.25 (apache2handler, Windows NT DESKTOP-GUGLHQJ 10.0 build 15063 (Windows 10) AMD64) MySQL: 5.7.14 WPLANG: en_US Server: Apache/2.4.23 (Win64) PHP/5.6.25 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 84.1M | 84.3M) multisite: N openssl: OpenSSL 1.0.1t  3 May 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.007 (0) Free space on disk containing Updraft's temporary directory: 294696.6 MB
+0000.019 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.022 (0) Semaphore (fd, wp_options) being initialised
+0000.027 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.030 (0) Set semaphore last lock (fd) time to 2017-10-27 17:53:32
+0000.032 (0) Semaphore lock (fd) complete
+0000.042 (0) Backup run: resumption=0, nonce=848911a8eb5a, begun at=1509126812 (0s ago), job type=backup
+0000.047 (0) Scheduling a resumption (1) after 300 seconds (1509127112) in case this run gets aborted
+0000.060 (0) Checking if we have a zip executable available
+0000.064 (0) Creation of backups of directories: beginning
+0000.077 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0006.322 (0) Total entities for the zip file: 767 directories, 4995 files (0 skipped as non-modified), 64 MB
+0006.345 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0006.573 (0) Zip: backup_2017-10-27-1753_Vape_Market_848911a8eb5a-plugins.zip.tmp: 100 files added (on-disk size: 128.4 KB)
+0006.754 (0) Zip: backup_2017-10-27-1753_Vape_Market_848911a8eb5a-plugins.zip.tmp: 200 files added (on-disk size: 128.4 KB)
+0006.962 (0) Zip: backup_2017-10-27-1753_Vape_Market_848911a8eb5a-plugins.zip.tmp: 300 files added (on-disk size: 128.4 KB)
+0007.190 (0) Zip: backup_2017-10-27-1753_Vape_Market_848911a8eb5a-plugins.zip.tmp: 400 files added (on-disk size: 128.4 KB)
+0007.439 (0) Zip: backup_2017-10-27-1753_Vape_Market_848911a8eb5a-plugins.zip.tmp: 500 files added (on-disk size: 128.4 KB)
+0007.447 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (8.5 MB, 4995 files batched, 501 (502) added so far); re-opening (prior size: 128.4 KB)
+0014.464 (0) Zip: backup_2017-10-27-1753_Vape_Market_848911a8eb5a-plugins.zip.tmp: 600 files added (on-disk size: 3326.3 KB)
+0014.676 (0) Zip: backup_2017-10-27-1753_Vape_Market_848911a8eb5a-plugins.zip.tmp: 700 files added (on-disk size: 3326.3 KB)
+0014.920 (0) Zip: backup_2017-10-27-1753_Vape_Market_848911a8eb5a-plugins.zip.tmp: 800 files added (on-disk size: 3326.3 KB)
+0015.166 (0) Zip: backup_2017-10-27-1753_Vape_Market_848911a8eb5a-plugins.zip.tmp: 900 files added (on-disk size: 3326.3 KB)
+0015.427 (0) Zip: backup_2017-10-27-1753_Vape_Market_848911a8eb5a-plugins.zip.tmp: 1000 files added (on-disk size: 3326.3 KB)
+0015.436 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3 MB, 4995 files batched, 501 (1003) added so far); re-opening (prior size: 3326.3 KB)
+0025.622 (0) Zip: backup_2017-10-27-1753_Vape_Market_848911a8eb5a-plugins.zip.tmp: 1100 files added (on-disk size: 4482.1 KB)
+0025.823 (0) Zip: backup_2017-10-27-1753_Vape_Market_848911a8eb5a-plugins.zip.tmp: 1200 files added (on-disk size: 4482.1 KB)
+0026.016 (0) Zip: backup_2017-10-27-1753_Vape_Market_848911a8eb5a-plugins.zip.tmp: 1300 files added (on-disk size: 4482.1 KB)
+0026.213 (0) Zip: backup_2017-10-27-1753_Vape_Market_848911a8eb5a-plugins.zip.tmp: 1400 files added (on-disk size: 4482.1 KB)
+0026.434 (0) Zip: backup_2017-10-27-1753_Vape_Market_848911a8eb5a-plugins.zip.tmp: 1500 files added (on-disk size: 4482.1 KB)
+0026.445 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4.2 MB, 4995 files batched, 501 (1504) added so far); re-opening (prior size: 4482.1 KB)
+0034.521 (0) Zip: backup_2017-10-27-1753_Vape_Market_848911a8eb5a-plugins.zip.tmp: 1600 files added (on-disk size: 5848.8 KB)
+0034.730 (0) Zip: backup_2017-10-27-1753_Vape_Market_848911a8eb5a-plugins.zip.tmp: 1700 files added (on-disk size: 5848.8 KB)
+0034.930 (0) Zip: backup_2017-10-27-1753_Vape_Market_848911a8eb5a-plugins.zip.tmp: 1800 files added (on-disk size: 5848.8 KB)
+0035.157 (0) Zip: backup_2017-10-27-1753_Vape_Market_848911a8eb5a-plugins.zip.tmp: 1900 files added (on-disk size: 5848.8 KB)
+0035.363 (0) Zip: backup_2017-10-27-1753_Vape_Market_848911a8eb5a-plugins.zip.tmp: 2000 files added (on-disk size: 5848.8 KB)
+0035.375 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (17.6 MB, 4995 files batched, 501 (2005) added so far); re-opening (prior size: 5848.8 KB)
+0038.697 (0) Zip: backup_2017-10-27-1753_Vape_Market_848911a8eb5a-plugins.zip.tmp: 2100 files added (on-disk size: 10953.1 KB)
+0038.999 (0) Zip: backup_2017-10-27-1753_Vape_Market_848911a8eb5a-plugins.zip.tmp: 2200 files added (on-disk size: 10953.1 KB)
+0039.282 (0) Zip: backup_2017-10-27-1753_Vape_Market_848911a8eb5a-plugins.zip.tmp: 2300 files added (on-disk size: 10953.1 KB)
+0039.585 (0) Zip: backup_2017-10-27-1753_Vape_Market_848911a8eb5a-plugins.zip.tmp: 2400 files added (on-disk size: 10953.1 KB)
+0039.941 (0) Zip: backup_2017-10-27-1753_Vape_Market_848911a8eb5a-plugins.zip.tmp: 2500 files added (on-disk size: 10953.1 KB)
+0039.963 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2 MB, 4995 files batched, 501 (2506) added so far); re-opening (prior size: 10953.1 KB)
+0040.626 (0) Zip: backup_2017-10-27-1753_Vape_Market_848911a8eb5a-plugins.zip.tmp: 2600 files added (on-disk size: 11722.2 KB)
+0040.955 (0) Zip: backup_2017-10-27-1753_Vape_Market_848911a8eb5a-plugins.zip.tmp: 2700 files added (on-disk size: 11722.2 KB)
+0041.316 (0) Zip: backup_2017-10-27-1753_Vape_Market_848911a8eb5a-plugins.zip.tmp: 2800 files added (on-disk size: 11722.2 KB)
+0041.700 (0) Zip: backup_2017-10-27-1753_Vape_Market_848911a8eb5a-plugins.zip.tmp: 2900 files added (on-disk size: 11722.2 KB)
+0042.017 (0) Zip: backup_2017-10-27-1753_Vape_Market_848911a8eb5a-plugins.zip.tmp: 3000 files added (on-disk size: 11722.2 KB)
+0042.039 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.2 MB, 4995 files batched, 501 (3007) added so far); re-opening (prior size: 11722.2 KB)
+0043.088 (0) Zip: backup_2017-10-27-1753_Vape_Market_848911a8eb5a-plugins.zip.tmp: 3100 files added (on-disk size: 12598.8 KB)
+0043.341 (0) Zip: backup_2017-10-27-1753_Vape_Market_848911a8eb5a-plugins.zip.tmp: 3200 files added (on-disk size: 12598.8 KB)
+0043.582 (0) Zip: backup_2017-10-27-1753_Vape_Market_848911a8eb5a-plugins.zip.tmp: 3300 files added (on-disk size: 12598.8 KB)
+0043.847 (0) Zip: backup_2017-10-27-1753_Vape_Market_848911a8eb5a-plugins.zip.tmp: 3400 files added (on-disk size: 12598.8 KB)
+0044.114 (0) Zip: backup_2017-10-27-1753_Vape_Market_848911a8eb5a-plugins.zip.tmp: 3500 files added (on-disk size: 12598.8 KB)
+0044.131 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (7.3 MB, 4995 files batched, 501 (3508) added so far); re-opening (prior size: 12598.8 KB)
+0056.867 (0) Zip: backup_2017-10-27-1753_Vape_Market_848911a8eb5a-plugins.zip.tmp: 3600 files added (on-disk size: 14833 KB)
+0057.147 (0) Zip: backup_2017-10-27-1753_Vape_Market_848911a8eb5a-plugins.zip.tmp: 3700 files added (on-disk size: 14833 KB)
+0057.381 (0) Zip: backup_2017-10-27-1753_Vape_Market_848911a8eb5a-plugins.zip.tmp: 3800 files added (on-disk size: 14833 KB)
+0057.645 (0) Zip: backup_2017-10-27-1753_Vape_Market_848911a8eb5a-plugins.zip.tmp: 3900 files added (on-disk size: 14833 KB)
+0057.889 (0) Zip: backup_2017-10-27-1753_Vape_Market_848911a8eb5a-plugins.zip.tmp: 4000 files added (on-disk size: 14833 KB)
+0057.915 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.8 MB, 4995 files batched, 501 (4009) added so far); re-opening (prior size: 14833 KB)
+0065.798 (0) Zip: backup_2017-10-27-1753_Vape_Market_848911a8eb5a-plugins.zip.tmp: 4100 files added (on-disk size: 16196.3 KB)
+0066.047 (0) Zip: backup_2017-10-27-1753_Vape_Market_848911a8eb5a-plugins.zip.tmp: 4200 files added (on-disk size: 16196.3 KB)
+0066.308 (0) Zip: backup_2017-10-27-1753_Vape_Market_848911a8eb5a-plugins.zip.tmp: 4300 files added (on-disk size: 16196.3 KB)
+0066.574 (0) Zip: backup_2017-10-27-1753_Vape_Market_848911a8eb5a-plugins.zip.tmp: 4400 files added (on-disk size: 16196.3 KB)
+0066.847 (0) Zip: backup_2017-10-27-1753_Vape_Market_848911a8eb5a-plugins.zip.tmp: 4500 files added (on-disk size: 16196.3 KB)
+0066.876 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (7.1 MB, 4995 files batched, 501 (4510) added so far); re-opening (prior size: 16196.3 KB)
+0075.558 (0) Zip: backup_2017-10-27-1753_Vape_Market_848911a8eb5a-plugins.zip.tmp: 4600 files added (on-disk size: 18149.8 KB)
+0075.805 (0) Zip: backup_2017-10-27-1753_Vape_Market_848911a8eb5a-plugins.zip.tmp: 4700 files added (on-disk size: 18149.8 KB)
+0076.075 (0) Zip: backup_2017-10-27-1753_Vape_Market_848911a8eb5a-plugins.zip.tmp: 4800 files added (on-disk size: 18149.8 KB)
+0076.314 (0) Zip: backup_2017-10-27-1753_Vape_Market_848911a8eb5a-plugins.zip.tmp: 4900 files added (on-disk size: 18149.8 KB)
+0078.473 (0) Created plugins zip (0) - 20853.1 KB in 78.4 s (266 KB/s) (sha1: 84fbb83f8330351a33d967d08e309e8d09b5fee0, sha256: a963dd7a82483c2541710843bad4dea34aab7e8f1ebaec553fb6331e353aab83)
+0078.484 (0) Beginning creation of dump of themes (split every: 400 MB)
+0079.167 (0) Total entities for the zip file: 30 directories, 597 files (0 skipped as non-modified), 3.1 MB
+0079.334 (0) Zip: backup_2017-10-27-1753_Vape_Market_848911a8eb5a-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0079.583 (0) Zip: backup_2017-10-27-1753_Vape_Market_848911a8eb5a-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0079.834 (0) Zip: backup_2017-10-27-1753_Vape_Market_848911a8eb5a-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0080.101 (0) Zip: backup_2017-10-27-1753_Vape_Market_848911a8eb5a-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0080.380 (0) Zip: backup_2017-10-27-1753_Vape_Market_848911a8eb5a-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0080.386 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3 MB, 597 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0087.041 (0) Created themes zip (0) - 1631.1 KB in 8.5 s (190.9 KB/s) (sha1: 82a8c3a3f01723383588d1846bdbbf924ba298cc, sha256: c0fbbfbeeb097d92d93aa9ddcd215ddaff4485a5e24bd6b7974412b532c4e6c8)
+0087.050 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0087.052 (0) Looking for candidates to back up in: C:\wamp64\www\vapemarket.ca/wp-content/uploads
+0087.054 (0) finding files: 2017: adding to list (1)
+0087.056 (0) finding files: wc-logs: adding to list (2)
+0087.058 (0) finding files: woocommerce_uploads: adding to list (3)
+0087.061 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0087.119 (0) Total entities for the zip file: 4 directories, 78 files (0 skipped as non-modified), 2.9 MB
+0087.945 (0) Created uploads zip (0) - 2904.5 KB in 0.9 s (3331.2 KB/s) (sha1: f743e705830e6befe6f137c4aea13d5660fe51e5, sha256: 500152890e8b4fd2a20ed3129d6af4899df9c8e4b603076083dc8188e859dd2b)
+0087.955 (0) Beginning backup of other directories found in the content directory (index: 0)
+0087.959 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0087.962 (0) Looking for candidates to back up in: C:\wamp64\www\vapemarket.ca/wp-content
+0087.965 (0) finding files: index.php: adding to list (1)
+0087.968 (0) finding files: plugins: skipping: this is the plugins directory
+0087.971 (0) finding files: themes: skipping: this is the themes directory
+0087.974 (0) finding files: updraft: skipping: this is the updraft directory
+0087.977 (0) finding files: upgrade: skipping: excluded by options
+0087.980 (0) finding files: uploads: skipping: this is the uploads directory
+0088.000 (0) Total entities for the zip file: 0 directories, 1 files (0 skipped as non-modified), 0 MB
+0088.041 (0) Created others zip (0) - 0.1 KB in 0 s (3.1 KB/s) (sha1: 777dbde09155a72feca0c19d499876bcdd471c0c, sha256: bbaaafee57b9fa8c8b1cb769f6e9e540cd7f685bd7e4f397874eafa5e836cdd0)
+0088.058 (0) Saving backup status to database (elements: 8)
+0088.064 (0) Beginning creation of database dump (WordPress DB)
+0088.289 (0) Table wp_options: Total expected rows (approximate): 414
+0088.367 (0) Table wp_options: Total rows added: 410 in 0.08 seconds
+0088.375 (0) Table wp_options: finishing file (backup_2017-10-27-1753_Vape_Market_848911a8eb5a-db-table-wp_options.table.gz - 126.3 KB)
+0088.387 (0) Table wp_users: Total expected rows (approximate): 1
+0088.393 (0) Table wp_users: Total rows added: 1 in 0.00 seconds
+0088.402 (0) Table wp_users: finishing file (backup_2017-10-27-1753_Vape_Market_848911a8eb5a-db-table-wp_users.table.gz - 0.6 KB)
+0088.416 (0) Table wp_usermeta: Total expected rows (approximate): 75
+0088.426 (0) Table wp_usermeta: Total rows added: 75 in 0.01 seconds
+0088.435 (0) Table wp_usermeta: finishing file (backup_2017-10-27-1753_Vape_Market_848911a8eb5a-db-table-wp_usermeta.table.gz - 2.3 KB)
+0088.448 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0088.451 (0) Table wp_commentmeta: Total rows added: 0 in 0.00 seconds
+0088.458 (0) Table wp_commentmeta: finishing file (backup_2017-10-27-1753_Vape_Market_848911a8eb5a-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0088.469 (0) Table wp_comments: Total expected rows (approximate): 1
+0088.473 (0) Table wp_comments: Total rows added: 1 in 0.00 seconds
+0088.482 (0) Table wp_comments: finishing file (backup_2017-10-27-1753_Vape_Market_848911a8eb5a-db-table-wp_comments.table.gz - 0.7 KB)
+0088.497 (0) Table wp_links: Total expected rows (approximate): 0
+0088.503 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0088.512 (0) Table wp_links: finishing file (backup_2017-10-27-1753_Vape_Market_848911a8eb5a-db-table-wp_links.table.gz - 0.4 KB)
+0088.526 (0) Table wp_postmeta: Total expected rows (approximate): 586
+0088.562 (0) Table wp_postmeta: Total rows added: 586 in 0.03 seconds
+0088.571 (0) Table wp_postmeta: finishing file (backup_2017-10-27-1753_Vape_Market_848911a8eb5a-db-table-wp_postmeta.table.gz - 6.8 KB)
+0088.583 (0) Table wp_posts: Total expected rows (approximate): 93
+0088.624 (0) Table wp_posts: Total rows added: 93 in 0.04 seconds
+0088.635 (0) Table wp_posts: finishing file (backup_2017-10-27-1753_Vape_Market_848911a8eb5a-db-table-wp_posts.table.gz - 9.9 KB)
+0088.647 (0) Table wp_term_relationships: Total expected rows (approximate): 26
+0088.653 (0) Table wp_term_relationships: Total rows added: 26 in 0.00 seconds
+0088.661 (0) Table wp_term_relationships: finishing file (backup_2017-10-27-1753_Vape_Market_848911a8eb5a-db-table-wp_term_relationships.table.gz - 0.5 KB)
+0088.672 (0) Table wp_term_taxonomy: Total expected rows (approximate): 36
+0088.680 (0) Table wp_term_taxonomy: Total rows added: 36 in 0.00 seconds
+0088.688 (0) Table wp_term_taxonomy: finishing file (backup_2017-10-27-1753_Vape_Market_848911a8eb5a-db-table-wp_term_taxonomy.table.gz - 0.7 KB)
+0088.702 (0) Table wp_termmeta: Total expected rows (approximate): 8
+0088.708 (0) Table wp_termmeta: Total rows added: 8 in 0.00 seconds
+0088.717 (0) Table wp_termmeta: finishing file (backup_2017-10-27-1753_Vape_Market_848911a8eb5a-db-table-wp_termmeta.table.gz - 0.5 KB)
+0088.732 (0) Table wp_terms: Total expected rows (approximate): 36
+0088.739 (0) Table wp_terms: Total rows added: 36 in 0.00 seconds
+0088.749 (0) Table wp_terms: finishing file (backup_2017-10-27-1753_Vape_Market_848911a8eb5a-db-table-wp_terms.table.gz - 0.8 KB)
+0088.761 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (approximate): 0
+0088.765 (0) Table wp_woocommerce_order_itemmeta: Total rows added: 0 in 0.00 seconds
+0088.773 (0) Table wp_woocommerce_order_itemmeta: finishing file (backup_2017-10-27-1753_Vape_Market_848911a8eb5a-db-table-wp_woocommerce_order_itemmeta.table.gz - 0.4 KB)
+0088.784 (0) Table wp_woocommerce_payment_tokenmeta: Total expected rows (approximate): 0
+0088.788 (0) Table wp_woocommerce_payment_tokenmeta: Total rows added: 0 in 0.00 seconds
+0088.797 (0) Table wp_woocommerce_payment_tokenmeta: finishing file (backup_2017-10-27-1753_Vape_Market_848911a8eb5a-db-table-wp_woocommerce_payment_tokenmeta.table.gz - 0.4 KB)
+0088.812 (0) Table wp_woocommerce_api_keys: Total expected rows (approximate): 0
+0088.817 (0) Table wp_woocommerce_api_keys: Total rows added: 0 in 0.00 seconds
+0088.827 (0) Table wp_woocommerce_api_keys: finishing file (backup_2017-10-27-1753_Vape_Market_848911a8eb5a-db-table-wp_woocommerce_api_keys.table.gz - 0.4 KB)
+0088.842 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (approximate): 0
+0088.847 (0) Table wp_woocommerce_attribute_taxonomies: Total rows added: 0 in 0.00 seconds
+0088.857 (0) Table wp_woocommerce_attribute_taxonomies: finishing file (backup_2017-10-27-1753_Vape_Market_848911a8eb5a-db-table-wp_woocommerce_attribute_taxonomies.table.gz - 0.4 KB)
+0088.872 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (approximate): 0
+0088.877 (0) Table wp_woocommerce_downloadable_product_permissions: Total rows added: 0 in 0.00 seconds
+0088.884 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file (backup_2017-10-27-1753_Vape_Market_848911a8eb5a-db-table-wp_woocommerce_downloadable_product_permissions.table.gz - 0.5 KB)
+0088.899 (0) Table wp_woocommerce_log: Total expected rows (approximate): 0
+0088.903 (0) Table wp_woocommerce_log: Total rows added: 0 in 0.00 seconds
+0088.913 (0) Table wp_woocommerce_log: finishing file (backup_2017-10-27-1753_Vape_Market_848911a8eb5a-db-table-wp_woocommerce_log.table.gz - 0.4 KB)
+0088.928 (0) Table wp_woocommerce_order_items: Total expected rows (approximate): 0
+0088.932 (0) Table wp_woocommerce_order_items: Total rows added: 0 in 0.00 seconds
+0088.941 (0) Table wp_woocommerce_order_items: finishing file (backup_2017-10-27-1753_Vape_Market_848911a8eb5a-db-table-wp_woocommerce_order_items.table.gz - 0.4 KB)
+0088.957 (0) Table wp_woocommerce_payment_tokens: Total expected rows (approximate): 0
+0088.962 (0) Table wp_woocommerce_payment_tokens: Total rows added: 0 in 0.00 seconds
+0088.971 (0) Table wp_woocommerce_payment_tokens: finishing file (backup_2017-10-27-1753_Vape_Market_848911a8eb5a-db-table-wp_woocommerce_payment_tokens.table.gz - 0.4 KB)
+0088.984 (0) Table wp_woocommerce_sessions: Total expected rows (approximate): 1
+0088.989 (0) Table wp_woocommerce_sessions: Total rows added: 1 in 0.00 seconds
+0088.998 (0) Table wp_woocommerce_sessions: finishing file (backup_2017-10-27-1753_Vape_Market_848911a8eb5a-db-table-wp_woocommerce_sessions.table.gz - 0.8 KB)
+0089.013 (0) Table wp_woocommerce_shipping_zone_locations: Total expected rows (approximate): 0
+0089.018 (0) Table wp_woocommerce_shipping_zone_locations: Total rows added: 0 in 0.00 seconds
+0089.027 (0) Table wp_woocommerce_shipping_zone_locations: finishing file (backup_2017-10-27-1753_Vape_Market_848911a8eb5a-db-table-wp_woocommerce_shipping_zone_locations.table.gz - 0.4 KB)
+0089.042 (0) Table wp_woocommerce_shipping_zone_methods: Total expected rows (approximate): 0
+0089.047 (0) Table wp_woocommerce_shipping_zone_methods: Total rows added: 0 in 0.00 seconds
+0089.056 (0) Table wp_woocommerce_shipping_zone_methods: finishing file (backup_2017-10-27-1753_Vape_Market_848911a8eb5a-db-table-wp_woocommerce_shipping_zone_methods.table.gz - 0.4 KB)
+0089.069 (0) Table wp_woocommerce_shipping_zones: Total expected rows (approximate): 0
+0089.072 (0) Table wp_woocommerce_shipping_zones: Total rows added: 0 in 0.00 seconds
+0089.080 (0) Table wp_woocommerce_shipping_zones: finishing file (backup_2017-10-27-1753_Vape_Market_848911a8eb5a-db-table-wp_woocommerce_shipping_zones.table.gz - 0.3 KB)
+0089.094 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (approximate): 0
+0089.098 (0) Table wp_woocommerce_tax_rate_locations: Total rows added: 0 in 0.00 seconds
+0089.108 (0) Table wp_woocommerce_tax_rate_locations: finishing file (backup_2017-10-27-1753_Vape_Market_848911a8eb5a-db-table-wp_woocommerce_tax_rate_locations.table.gz - 0.4 KB)
+0089.122 (0) Table wp_woocommerce_tax_rates: Total expected rows (approximate): 0
+0089.128 (0) Table wp_woocommerce_tax_rates: Total rows added: 0 in 0.00 seconds
+0089.137 (0) Table wp_woocommerce_tax_rates: finishing file (backup_2017-10-27-1753_Vape_Market_848911a8eb5a-db-table-wp_woocommerce_tax_rates.table.gz - 0.4 KB)
+0089.152 (0) Table wp_yoast_seo_links: Total expected rows (approximate): 0
+0089.156 (0) Table wp_yoast_seo_links: Total rows added: 0 in 0.00 seconds
+0089.162 (0) Table wp_yoast_seo_links: finishing file (backup_2017-10-27-1753_Vape_Market_848911a8eb5a-db-table-wp_yoast_seo_links.table.gz - 0.4 KB)
+0089.174 (0) Table wp_yoast_seo_meta: Total expected rows (approximate): 8
+0089.179 (0) Table wp_yoast_seo_meta: Total rows added: 8 in 0.00 seconds
+0089.186 (0) Table wp_yoast_seo_meta: finishing file (backup_2017-10-27-1753_Vape_Market_848911a8eb5a-db-table-wp_yoast_seo_meta.table.gz - 0.4 KB)
+0089.199 (0) backup_2017-10-27-1753_Vape_Market_848911a8eb5a-db-table-wp_options.table.gz (1/28): adding to final database dump
+0089.244 (0) backup_2017-10-27-1753_Vape_Market_848911a8eb5a-db-table-wp_users.table.gz (2/28): adding to final database dump
+0089.248 (0) backup_2017-10-27-1753_Vape_Market_848911a8eb5a-db-table-wp_usermeta.table.gz (3/28): adding to final database dump
+0089.251 (0) backup_2017-10-27-1753_Vape_Market_848911a8eb5a-db-table-wp_commentmeta.table.gz (4/28): adding to final database dump
+0089.255 (0) backup_2017-10-27-1753_Vape_Market_848911a8eb5a-db-table-wp_comments.table.gz (5/28): adding to final database dump
+0089.257 (0) backup_2017-10-27-1753_Vape_Market_848911a8eb5a-db-table-wp_links.table.gz (6/28): adding to final database dump
+0089.259 (0) backup_2017-10-27-1753_Vape_Market_848911a8eb5a-db-table-wp_postmeta.table.gz (7/28): adding to final database dump
+0089.270 (0) backup_2017-10-27-1753_Vape_Market_848911a8eb5a-db-table-wp_posts.table.gz (8/28): adding to final database dump
+0089.278 (0) backup_2017-10-27-1753_Vape_Market_848911a8eb5a-db-table-wp_term_relationships.table.gz (9/28): adding to final database dump
+0089.281 (0) backup_2017-10-27-1753_Vape_Market_848911a8eb5a-db-table-wp_term_taxonomy.table.gz (10/28): adding to final database dump
+0089.284 (0) backup_2017-10-27-1753_Vape_Market_848911a8eb5a-db-table-wp_termmeta.table.gz (11/28): adding to final database dump
+0089.287 (0) backup_2017-10-27-1753_Vape_Market_848911a8eb5a-db-table-wp_terms.table.gz (12/28): adding to final database dump
+0089.289 (0) backup_2017-10-27-1753_Vape_Market_848911a8eb5a-db-table-wp_woocommerce_order_itemmeta.table.gz (13/28): adding to final database dump
+0089.293 (0) backup_2017-10-27-1753_Vape_Market_848911a8eb5a-db-table-wp_woocommerce_payment_tokenmeta.table.gz (14/28): adding to final database dump
+0089.296 (0) backup_2017-10-27-1753_Vape_Market_848911a8eb5a-db-table-wp_woocommerce_api_keys.table.gz (15/28): adding to final database dump
+0089.300 (0) backup_2017-10-27-1753_Vape_Market_848911a8eb5a-db-table-wp_woocommerce_attribute_taxonomies.table.gz (16/28): adding to final database dump
+0089.304 (0) backup_2017-10-27-1753_Vape_Market_848911a8eb5a-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (17/28): adding to final database dump
+0089.307 (0) backup_2017-10-27-1753_Vape_Market_848911a8eb5a-db-table-wp_woocommerce_log.table.gz (18/28): adding to final database dump
+0089.311 (0) backup_2017-10-27-1753_Vape_Market_848911a8eb5a-db-table-wp_woocommerce_order_items.table.gz (19/28): adding to final database dump
+0089.314 (0) backup_2017-10-27-1753_Vape_Market_848911a8eb5a-db-table-wp_woocommerce_payment_tokens.table.gz (20/28): adding to final database dump
+0089.318 (0) backup_2017-10-27-1753_Vape_Market_848911a8eb5a-db-table-wp_woocommerce_sessions.table.gz (21/28): adding to final database dump
+0089.321 (0) backup_2017-10-27-1753_Vape_Market_848911a8eb5a-db-table-wp_woocommerce_shipping_zone_locations.table.gz (22/28): adding to final database dump
+0089.325 (0) backup_2017-10-27-1753_Vape_Market_848911a8eb5a-db-table-wp_woocommerce_shipping_zone_methods.table.gz (23/28): adding to final database dump
+0089.329 (0) backup_2017-10-27-1753_Vape_Market_848911a8eb5a-db-table-wp_woocommerce_shipping_zones.table.gz (24/28): adding to final database dump
+0089.332 (0) backup_2017-10-27-1753_Vape_Market_848911a8eb5a-db-table-wp_woocommerce_tax_rate_locations.table.gz (25/28): adding to final database dump
+0089.336 (0) backup_2017-10-27-1753_Vape_Market_848911a8eb5a-db-table-wp_woocommerce_tax_rates.table.gz (26/28): adding to final database dump
+0089.339 (0) backup_2017-10-27-1753_Vape_Market_848911a8eb5a-db-table-wp_yoast_seo_links.table.gz (27/28): adding to final database dump
+0089.343 (0) backup_2017-10-27-1753_Vape_Market_848911a8eb5a-db-table-wp_yoast_seo_meta.table.gz (28/28): adding to final database dump
+0089.353 (0) backup_2017-10-27-1753_Vape_Market_848911a8eb5a-db.gz: finished writing out complete database file (128 KB)
+0089.400 (0) Total database tables backed up: 28 (backup_2017-10-27-1753_Vape_Market_848911a8eb5a-db.gz, size: 152552, sha256)
+0089.415 (0) backup_2017-10-27-1753_Vape_Market_848911a8eb5a-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0089.418 (0) backup_2017-10-27-1753_Vape_Market_848911a8eb5a-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0089.421 (0) backup_2017-10-27-1753_Vape_Market_848911a8eb5a-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0089.424 (0) backup_2017-10-27-1753_Vape_Market_848911a8eb5a-others.zip: others: This file has not yet been successfully uploaded: will queue
+0089.427 (0) backup_2017-10-27-1753_Vape_Market_848911a8eb5a-db.gz: db: This file has not yet been successfully uploaded: will queue
+0089.430 (0) Saving backup history. Total backup size: 24.9 MB
+0089.437 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0089.445 (0) Cloud backup selection (1/1): none (last)
+0089.448 (0) No remote despatch: user chose no remote backup service
+0089.453 (0) Recording as successfully uploaded: backup_2017-10-27-1753_Vape_Market_848911a8eb5a-plugins.zip (5dd92c9ea407a28aa8743ea1b3c4bf2b)
+0089.467 (0) Recording as successfully uploaded: backup_2017-10-27-1753_Vape_Market_848911a8eb5a-themes.zip (be70fb6a48f6e48e010561f383167559)
+0089.479 (0) Recording as successfully uploaded: backup_2017-10-27-1753_Vape_Market_848911a8eb5a-uploads.zip (0734c18634ae943eaea26e25d4a89411)
+0089.489 (0) Recording as successfully uploaded: backup_2017-10-27-1753_Vape_Market_848911a8eb5a-others.zip (783a3fd7ea24a476b27cab4cd694cebe)
+0089.502 (0) Recording as successfully uploaded: backup_2017-10-27-1753_Vape_Market_848911a8eb5a-db.gz (22455731d6cc3fa3b1fb2c1167594c8f)
+0089.511 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0089.515 (0) Number of backup sets in history: 1; groups (db): 1
+0089.517 (0) Examining (for databases) backup set with group_id=0, nonce=848911a8eb5a, datestamp=1509126812 (Oct 27 2017 17:53:32)
+0089.520 (0) This backup set is the backup set just made, so will not be deleted.
+0089.521 (0) Number of backup sets in history: 1; groups (files): 1
+0089.523 (0) Examining (for files) backup set with nonce=848911a8eb5a, datestamp=1509126812 (Oct 27 2017 17:53:32)
+0089.523 (0) This backup set is the backup set just made, so will not be deleted.
+0089.526 (0) This backup set is the backup set just made, so will not be deleted.
+0089.527 (0) This backup set is the backup set just made, so will not be deleted.
+0089.527 (0) This backup set is the backup set just made, so will not be deleted.
+0089.528 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0089.530 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0089.534 (0) Resume backup (848911a8eb5a, 0): finish run
+0089.559 (0) Decremented the semaphore (fd) by 1
+0089.562 (0) Semaphore (fd) unlocked
+0089.564 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0089.575 (0) No email will/can be sent - the user has not configured an email address.
+0089.578 (0) The backup apparently succeeded and is now complete

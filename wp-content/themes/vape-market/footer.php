@@ -40,12 +40,21 @@
 					</div>
 				</div>
 
-				<div class="vm-row vm-copyright">
+			</div>
+
+		</footer>
+
+		<footer class="subfooter2">
+
+			<div class="vm-container">
+
+				<div class="vm-row">
 					<div class="vm-col-12">
+
 						<?php Vape_Market_Render::renderSettingText('copyright'); ?>
+
 					</div>
 				</div>
-
 			</div>
 
 		</footer>

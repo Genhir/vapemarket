@@ -15,6 +15,7 @@
 	margin: 30px 7px 10px 7px;
 	padding: 0;
 	display: inline-block;
+	text-decoration: none;
 }
 .vm-menu li a:hover {
 	color: #666;
@@ -38,10 +39,10 @@
 .main-menu li a {
 	color: #464646;
 	font-family: Verdana, Geneva, sans-serif;
-	margin: 44px 12px 10px 12px;
+	margin: 20px 12px 0px 12px;
 	padding: 0;
 	display: inline-block;
-	font-size: 0.90em;
+	font-size: 1.1em;
 	font-weight: normal;
 }
 .main-menu li a:hover {

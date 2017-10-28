@@ -68,6 +68,15 @@ class Vape_Market_Render {
 
 	}
 
+	public static function renderSettingImageUrl( $field_id ) {
+
+		$prefix = 'vm_';
+		$value = rwmb_meta( $prefix.$field_id, array( 'object_type' => 'setting' ), 'vm_settings' );
+		$image = current( $value );
+		print $image['full_url'];
+
+	}
+
 	public static function images( $imageField, $post ) {
 
 		$images = rwmb_meta( $imageField, array(), $post->ID );

@@ -1,0 +1,9 @@
+Oct 28 2017 05:45:49
+{"Number":2,"Message":"unlink(C:\\wamp64\\www\\vapemarket.ca\\wp-content\\plugins\\all-in-one-wp-migration\\storage\\2ddx0qpd4kqe\\filemap.list): Permission denied","File":"C:\\wamp64\\www\\vapemarket.ca\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filesystem\\class-ai1wm-directory.php","Line":49}
+
+Oct 28 2017 05:45:49
+{"Number":2,"Message":"unlink(C:\\wamp64\\www\\vapemarket.ca\\wp-content\\plugins\\all-in-one-wp-migration\\storage\\2ddx0qpd4kqe\\localhost-vapemarket.ca-20171028-054327-688.wpress): Permission denied","File":"C:\\wamp64\\www\\vapemarket.ca\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filesystem\\class-ai1wm-directory.php","Line":49}
+
+Oct 28 2017 05:45:49
+{"Number":2,"Message":"rmdir(C:\\wamp64\\www\\vapemarket.ca\\wp-content\\plugins\\all-in-one-wp-migration\\storage\\2ddx0qpd4kqe): Directory not empty","File":"C:\\wamp64\\www\\vapemarket.ca\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filesystem\\class-ai1wm-directory.php","Line":54}
+

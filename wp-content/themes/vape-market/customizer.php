@@ -134,4 +134,16 @@ function vm_customizer_settings( $wp_customize ) {
 		'settings'   => 'header_bg_color',
 	)));
 
+	// footer background
+	$wp_customize->add_setting( 'footer_bg_color' , array(
+		'default'     => '#CCCCCC',
+		'transport'   => 'refresh',
+	));
+
+	$wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'footer_bg_color', array(
+		'label'      => 'Footer Background Color',
+		'section'    => 'vm_colors',
+		'settings'   => 'footer_bg_color',
+	)));
+
 }

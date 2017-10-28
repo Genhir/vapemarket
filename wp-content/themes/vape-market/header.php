@@ -1,4 +1,5 @@
 <?php
+
 /**
  * The header for our theme
  *
@@ -28,6 +29,30 @@
 
 #header-top {
 	background: <?php print get_theme_mod('header_bg_color'); ?>;
+	color: #fff;
+}
+#header-top a {
+	color: #fff;
+}
+
+footer.footer {
+	background-image: url( <?php Vape_Market_Render::renderSettingImageUrl('footer_image'); ?> );
+	background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
+	height: 374px;
+	border-top: 5px solid #353535;
+}
+
+footer.subfooter {
+	background: <?php print get_theme_mod('footer_bg_color'); ?>;
+}
+
+footer.subfooter2 {
+	background: #353535;
+	color: #fff;
+	font-size: 0.75em;
+	padding: 10px 0;
 }
 
 </style>

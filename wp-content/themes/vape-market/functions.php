@@ -173,6 +173,11 @@ function vape_market_get_meta_box( $meta_boxes ) {
 				'type' => 'text',
 				'name' => esc_html__( 'Copyright Statement', 'vape-market' ),
 			),
+			array(
+				'id' => $prefix . 'footer_image',
+				'type' => 'image_advanced',
+				'name' => esc_html__( 'Image Advanced', 'vape-market' ),
+			),
 		),
 	);
 
