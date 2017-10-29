@@ -45,9 +45,7 @@
 	font-size: 1.1em;
 	font-weight: normal;
 }
-.main-menu li a:hover {
-	color: #F1C232;
-}
+.main-menu li a:hover {}
 .main-menu li ul {}
 .main-menu li li {}
 .main-menu li li a {
@@ -56,9 +54,7 @@
 .main-menu .current-menu-item {
 	border-bottom: solid 4px #000;
 }
-.main-menu .current-menu-item a {
-	color: #F1C232;
-}
+.main-menu .current-menu-item a {}
 
 /* Topbar Menu */
 .topbar-menu {

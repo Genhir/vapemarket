@@ -184,3 +184,19 @@ function vape_market_get_meta_box( $meta_boxes ) {
 	return $meta_boxes;
 }
 add_filter( 'rwmb_meta_boxes', 'vape_market_get_meta_box' );
+
+// template include filter
+add_filter( 'template_include', 'vm_template', 99 );
+
+function vm_template( $template ) {
+
+	if ( !is_front_page() && is_home() ) {
+		$new_template = locate_template( array( 'page-blog.php' ) );
+		if ( '' != $new_template ) {
+			return $new_template;
+		}
+	}
+
+	return $template;
+
+}

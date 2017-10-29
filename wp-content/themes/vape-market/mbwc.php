@@ -17,8 +17,6 @@ class RW_Meta_Box_WooCommerce extends RW_Meta_Box {
 			esc_attr( $this->object_type )
 		);
 
-		print "HU24242432";
-
 		wp_nonce_field( "rwmb-save-{$this->id}", "nonce_{$this->id}" );
 
 		// Allow users to add custom code before meta box content.
@@ -26,8 +24,6 @@ class RW_Meta_Box_WooCommerce extends RW_Meta_Box {
 		// 2nd action applies to only current meta box.
 		do_action( 'rwmb_before', $this );
 		do_action( "rwmb_before_{$this->id}", $this );
-
-		var_dump($this->fields);
 
 		foreach ( $this->fields as $field ) {
 			RWMB_Field::call( 'show', $field, $saved, $this->object_id );

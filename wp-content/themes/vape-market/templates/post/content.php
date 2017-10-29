@@ -2,9 +2,7 @@
 /**
  * Template part for displaying posts
  *
- * @link https://codex.wordpress.org/Template_Hierarchy
- *
- * @package Clay
+ * @package Vape Market Theme
  * @subpackage Templates
  * @since 1.0
  * @version 1.2
@@ -60,11 +58,5 @@
 		) );
 		?>
 	</div><!-- .entry-content -->
-
-	<?php
-	if ( is_single() ) {
-		// twentyseventeen_entry_footer();
-	}
-	?>
 
 </article><!-- #post-## -->

@@ -35,6 +35,14 @@
 	color: #fff;
 }
 
+.main-menu li a:hover {
+	color: <?php print get_theme_mod('main_menu_hover_color'); ?>;
+}
+
+.main-menu .current-menu-item a {
+	color: <?php print get_theme_mod('main_menu_hover_color'); ?>;
+}
+
 footer.footer {
 	background-image: url( <?php Vape_Market_Render::renderSettingImageUrl('footer_image'); ?> );
 	background-size:     cover;

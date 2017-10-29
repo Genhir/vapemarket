@@ -146,4 +146,16 @@ function vm_customizer_settings( $wp_customize ) {
 		'settings'   => 'footer_bg_color',
 	)));
 
+	// main menu hover
+	$wp_customize->add_setting( 'main_menu_hover_color' , array(
+		'default'     => '#CCCCCC',
+		'transport'   => 'refresh',
+	));
+
+	$wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'main_menu_hover_color', array(
+		'label'      => 'Main Menu Link Hover Color',
+		'section'    => 'vm_colors',
+		'settings'   => 'main_menu_hover_color',
+	)));
+
 }
