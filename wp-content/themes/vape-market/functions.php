@@ -47,7 +47,7 @@ class Vape_Market_Theme {
 		$vmWidget->register( 'home3', 'Home 3' );
 
 		// project sidebar
-		$vmWidget->register( 'project_sidebar', 'Project Sidebar' );
+		$vmWidget->register( 'directory_sidebar', 'Directory Sidebar' );
 
 	}
 
@@ -200,3 +200,48 @@ function vm_template( $template ) {
 	return $template;
 
 }
+
+
+/*
+ * Locations Tax
+ */
+ function vm_register_taxonomy() {
+
+ 	$args = array (
+ 		'label' => esc_html__( 'Locations', 'vape-market' ),
+ 		'labels' => array(
+ 			'menu_name' => esc_html__( 'Locations', 'vape-market' ),
+ 			'all_items' => esc_html__( 'All Locations', 'vape-market' ),
+ 			'edit_item' => esc_html__( 'Edit Location', 'vape-market' ),
+ 			'view_item' => esc_html__( 'View Location', 'vape-market' ),
+ 			'update_item' => esc_html__( 'Update Location', 'vape-market' ),
+ 			'add_new_item' => esc_html__( 'Add new Location', 'vape-market' ),
+ 			'new_item_name' => esc_html__( 'New Location', 'vape-market' ),
+ 			'parent_item' => esc_html__( 'Parent Location', 'vape-market' ),
+ 			'parent_item_colon' => esc_html__( 'Parent Location:', 'vape-market' ),
+ 			'search_items' => esc_html__( 'Search Locations', 'vape-market' ),
+ 			'popular_items' => esc_html__( 'Popular Locations', 'vape-market' ),
+ 			'separate_items_with_commas' => esc_html__( 'Separate Locations with commas', 'vape-market' ),
+ 			'add_or_remove_items' => esc_html__( 'Add or remove Locations', 'vape-market' ),
+ 			'choose_from_most_used' => esc_html__( 'Choose most used Locations', 'vape-market' ),
+ 			'not_found' => esc_html__( 'No Locations found', 'vape-market' ),
+ 			'name' => esc_html__( 'Locations', 'vape-market' ),
+ 			'singular_name' => esc_html__( 'Location', 'vape-market' ),
+ 		),
+ 		'public' => true,
+ 		'show_ui' => true,
+ 		'show_in_menu' => true,
+ 		'show_in_nav_menus' => true,
+ 		'show_tagcloud' => true,
+ 		'show_in_quick_edit' => true,
+ 		'show_admin_column' => false,
+ 		'show_in_rest' => false,
+ 		'rest_base' => false,
+ 		'hierarchical' => true,
+ 		'query_var' => true,
+ 		'sort' => false,
+ 	);
+
+ 	register_taxonomy( 'location', array( 'directory-listing' ), $args );
+ }
+ add_action( 'init', 'vm_register_taxonomy', 0 );

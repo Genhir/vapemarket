@@ -15,12 +15,6 @@
  * @version 1.0
  */
 
-// check if blog index
-$is_blog = false;
-if ( !is_front_page() && is_home() ) {
-	$is_blog = true;
-}
-
 get_header(); ?>
 
 <div class="vm-container vm-content">
@@ -34,11 +28,7 @@ get_header(); ?>
 
 					<?php
 
-					if( $is_blog ) {
-						get_template_part( 'templates/blog/index' );
-					}
-
-					elseif ( have_posts() ) {
+					if ( have_posts() ) {
 
 						/* Start the Loop */
 						while ( have_posts() ) : the_post();
@@ -48,7 +38,8 @@ get_header(); ?>
 							 * If you want to override this in a child theme, then include a file
 							 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
 							 */
-							get_template_part( 'templates/post/content', get_post_format() );
+							// removed use of get_post_format();
+							get_template_part( 'templates/post/archive-listing', get_post_type() );
 
 						endwhile;
 
@@ -60,9 +51,10 @@ get_header(); ?>
 
 					} else {
 
-						get_template_part( 'template-parts/post/content', 'none' );
+						get_template_part( 'templates/post/none' );
 
 					}
+
 					?>
 
 				</main><!-- #main -->
@@ -72,7 +64,14 @@ get_header(); ?>
 
 			<div class="vm-col-4">
 
-				<?php Vape_Market_Render::sidebar('right_sidebar'); ?>
+				<?php
+					if( is_post_type_archive( 'directory-listing' ) || is_tax( 'location' ) || is_tax('directory-listing-tag') ) {
+						Vape_Market_Render::sidebar('directory_sidebar');
+					} else {
+						Vape_Market_Render::sidebar('right_sidebar');
+					}
+
+				?>
 
 			</div>
 

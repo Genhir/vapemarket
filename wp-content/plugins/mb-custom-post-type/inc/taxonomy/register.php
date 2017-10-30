@@ -77,7 +77,6 @@ class MB_CPT_Taxonomy_Register extends MB_CPT_Base_Register {
 
 		foreach ( $taxonomy_ids as $taxonomy_id ) {
 			list( $labels, $args ) = $this->get_taxonomy_data( $taxonomy_id );
-
 			$taxonomies[ $args['taxonomy'] ] = $this->set_up_taxonomy( $labels, $args );
 		}
 
