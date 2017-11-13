@@ -22,7 +22,7 @@
 			<?php the_title(); ?>
 		</h2>
 
-		<?php if ( '' !== get_the_post_thumbnail() && ! is_single() ) : ?>
+		<?php if ( '' !== get_the_post_thumbnail() ) : ?>
 			<div class="post-thumbnail">
 				<a href="<?php the_permalink(); ?>">
 					<?php

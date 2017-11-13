@@ -78,57 +78,6 @@ function vmDeclareSenseiSupport() {
 
 add_filter( 'mb_aio_load_free_extensions', '__return_true' );
 
-
-// TEST MB IN WC
-
-// Add Variation Settings
-add_action( 'woocommerce_product_after_variable_attributes', 'variation_settings_fields', 10, 3 );
-add_action( 'woocommerce_save_product_variation', 'save_variation_settings_fields', 10, 2 );
-
-function variation_settings_fields( $loop, $variation_data, $variation ) {
-
-	$mb = rwmb_get_registry( 'meta_box' )->get( "product_settings" );
-	$mb->set_object_id( $variation->ID );
-	$saved = $mb->is_saved();
-
-	// Container.
-	printf(
-		'<div class="rwmb-meta-box" data-autosave="%s" data-object-type="%s">',
-		esc_attr( $mb->autosave ? 'true' : 'false' ),
-		esc_attr( $mb->object_type )
-	);
-
-	wp_nonce_field( "rwmb-save-{$mb->id}", "nonce_{$mb->id}" );
-
-	// Allow users to add custom code before meta box content.
-	// 1st action applies to all meta boxes.
-	// 2nd action applies to only current meta box.
-	do_action( 'rwmb_before', $mb );
-	do_action( "rwmb_before_{$mb->id}", $mb );
-
-	foreach ( $mb->fields as $field ) {
-		RWMB_Field::call( 'show', $field, $saved, $variation->ID );
-	}
-
-	// Allow users to add custom code after meta box content.
-	// 1st action applies to all meta boxes.
-	// 2nd action applies to only current meta box.
-	do_action( 'rwmb_after', $mb );
-	do_action( "rwmb_after_{$mb->id}", $mb );
-
-	// End container.
-	echo '</div>';
-
-}
-
-function save_variation_settings_fields( $post_id ) {
-
-	$meta_box = rwmb_get_registry( 'meta_box' )->get( "product_settings" );
-	$meta_box->save_post( $post_id );
-
-}
-
-
 add_action( 'after_setup_theme', 'woocommerce_support' );
 function woocommerce_support() {
     add_theme_support( 'woocommerce' );
@@ -245,3 +194,78 @@ function vm_template( $template ) {
  	register_taxonomy( 'location', array( 'directory-listing' ), $args );
  }
  add_action( 'init', 'vm_register_taxonomy', 0 );
+
+
+/*
+ * Register directory meta box
+ */
+ add_filter( 'rwmb_meta_boxes', 'vm_register_meta_boxes' );
+ function vm_register_meta_boxes( $meta_boxes ) {
+     $meta_boxes[] = array (
+       'id' => 'directory-listing',
+       'title' => 'Directory Listing',
+       'pages' =>   array (
+          'directory-listing',
+       ),
+       'context' => 'normal',
+       'priority' => 'high',
+       'autosave' => false,
+       'fields' =>   array (
+
+         array (
+           'id' => 'website',
+           'type' => 'url',
+           'name' => 'Website',
+         ),
+
+         array (
+           'id' => 'logo',
+           'type' => 'image',
+           'name' => 'Logo',
+           'max_file_uploads' => 4,
+         ),
+
+         array (
+           'id' => 'address',
+           'type' => 'text',
+           'name' => 'Address',
+         ),
+				 array (
+           'id' => 'city',
+           'type' => 'text',
+           'name' => 'City',
+         ),
+				 array (
+           'id' => 'province',
+           'type' => 'text',
+           'name' => 'Province',
+         ),
+				 array (
+           'id' => 'postal_code',
+           'type' => 'text',
+           'name' => 'Postal Code',
+         ),
+
+         array (
+           'id' => 'map',
+           'type' => 'map',
+           'name' => 'Map',
+           'address_field' => array( 'address, city, province, postal_code' ),
+           'region' => 'CA',
+           'api_key' => 'AIzaSyA8rfFaL4YUHqREaRDkcqXMIuL5knCgNGk',
+           'std' => '60,100,15',
+         ),
+
+       ),
+
+       'geo' => '1',
+     );
+
+     return $meta_boxes;
+ }
+
+
+add_filter( 'gmap_api_params', function( $params ) {
+	 $params['key'] = 'AIzaSyBLEBQdrM3bssCqRMT8r4XSnM3jlyYCXgU';
+	 return $params;
+});

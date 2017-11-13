@@ -24,10 +24,22 @@ get_header(); ?>
 		<div class="vm-col-8">
 
 			<!-- Project Title -->
-			<h1 class="project-title"><?php print $post->post_title; ?></h1>
+			<h1 class="directory-listing-title"><?php print $post->post_title; ?></h1>
+
+			<?php if ( has_post_thumbnail( $post ) ) : ?>
+				<div class="post-thumbnail">
+					<a href="<?php the_permalink(); ?>">
+						<?php
+							if( has_post_thumbnail( $post ) ) {
+								print get_the_post_thumbnail( $post );
+							}
+						?>
+					</a>
+				</div><!-- .post-thumbnail -->
+			<?php endif; ?>
 
 			<!-- Project Summary -->
-			<div class="project-summary">
+			<div class="directory-listing-summary">
 
 				<?php
 
@@ -40,22 +52,20 @@ get_header(); ?>
 			</div>
 
 			<!-- Project URL's -->
-			<div class="directory-url">
+			<div class="directory-website-link">
 				<?php
 
 					$url = rwmb_meta( 'website', array(), $post->ID );
-					if( $url === '' ) {
-						$url = get_permalink( $post );
+					if( $url !== '' ) {
+						print '<a href="' . $url . '">Visit Website</a>';
 					}
-
-					print '<a href="' . $url . '">Visit Website</a>';
 
 				?>
 
 			</div>
 
-			<!-- Listing Description (Post Content) -->
-			<div class="project-story">
+			<!-- Listing Content -->
+			<div class="directory-listing-content">
 
 				<?php
 
@@ -66,6 +76,11 @@ get_header(); ?>
 
 				?>
 
+			</div>
+
+			<!-- Listing Content -->
+			<div class="directory-return-link">
+				<a href="<?php print home_url('directory'); ?>" class="btn btn-primary btn-lg">Return to Directory</a>
 			</div>
 
 		</div><!-- .vm-col -->
